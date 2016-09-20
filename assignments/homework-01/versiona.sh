@@ -3,8 +3,8 @@
 Myfile=$1
 
 date="$(date +%F)_"
-# echo $Curdate
+ echo $date
 
 Newfile=$date$Myfile
-# echo $Newfile
+ echo $Newfile
 cp $Myfile $Newfile
